@@ -3,8 +3,6 @@
 <style|<tuple|generic|literate|chinese>>
 
 <\body>
-  <chapter|\<#9884\>\<#5907\>\<#77E5\>\<#8BC6\>>
-
   <section|\<#673A\>\<#5668\>\<#5B66\>\<#4E60\>\<#7B80\>\<#4ECB\>>
 
   \<#672C\>\<#4E66\>\<#4F5C\>\<#8005\>\<#8DDF\>\<#5E7F\>\<#5927\>\<#7A0B\>\<#5E8F\>\<#5458\>\<#4E00\>\<#6837\>\<#FF0C\>\<#5728\>\<#5F00\>\<#59CB\>\<#5199\>\<#4F5C\>\<#524D\>\<#9700\>\<#8981\>\<#53D6\>\<#6765\>\<#4E00\>\<#676F\>\<#5496\>\<#5561\>\<#3002\>\<#6211\>\<#4EEC\>\<#8DF3\>\<#8FDB\>\<#8F66\>\<#51C6\>\<#5907\>\<#51FA\>\<#53D1\>\<#FF0C\>Alex\<#638F\>\<#51FA\>\<#4ED6\>\<#7684\>\<#5B89\>\<#5353\>\<#558A\>\<#4E00\>\<#58F0\>\POK
@@ -306,784 +304,9 @@
     <item><strong|\<#751F\>\<#6210\>\<#5BF9\>\<#6297\>\<#7F51\>\<#7EDC\>>\<#662F\>\<#6700\>\<#8FD1\>\<#4E00\>\<#4E2A\>\<#5F88\>\<#706B\>\<#7684\>\<#9886\>\<#57DF\>\<#3002\>\<#8FD9\>\<#91CC\>\<#63CF\>\<#8FF0\>\<#6570\>\<#636E\>\<#7684\>\<#751F\>\<#6210\>\<#8FC7\>\<#7A0B\>\<#FF0C\>\<#5E76\>\<#68C0\>\<#67E5\>\<#771F\>\<#5B9E\>\<#4E0E\>\<#751F\>\<#6210\>\<#7684\>\<#6570\>\<#636E\>\<#662F\>\<#5426\>\<#7EDF\>\<#8BA1\>\<#4E0A\>\<#76F8\>\<#4F3C\>\<#3002\>
   </itemize>
 
-  <subsection|\<#5C0F\>\<#7ED3\>><label|小结>
+  <subsection|\<#5C0F\>\<#7ED3\>>
 
   \<#673A\>\<#5668\>\<#5B66\>\<#4E60\>\<#662F\>\<#4E00\>\<#4E2A\>\<#5E9E\>\<#5927\>\<#7684\>\<#9886\>\<#57DF\>\<#3002\>\<#6211\>\<#4EEC\>\<#5728\>\<#6B64\>\<#65E0\>\<#6CD5\>\<#4E5F\>\<#65E0\>\<#9700\>\<#4ECB\>\<#7ECD\>\<#6709\>\<#5173\>\<#5B83\>\<#7684\>\<#5168\>\<#90E8\>\<#3002\>\<#6709\>\<#4E86\>\<#8FD9\>\<#4E9B\>\<#80CC\>\<#666F\>\<#77E5\>\<#8BC6\>\<#94FA\>\<#57AB\>\<#FF0C\>\<#4F60\>\<#662F\>\<#5426\>\<#5BF9\>\<#63A5\>\<#4E0B\>\<#6765\>\<#7684\>\<#5B66\>\<#4E60\>\<#66F4\>\<#6709\>\<#5174\>\<#8DA3\>\<#4E86\>\<#5462\>\<#FF1F\>
-
-  <section|\<#4F7F\>\<#7528\>NDArray\<#6765\>\<#5904\>\<#7406\>\<#6570\>\<#636E\>>
-
-  \<#5BF9\>\<#4E8E\>\<#673A\>\<#5668\>\<#5B66\>\<#4E60\>\<#6765\>\<#8BF4\>\<#FF0C\>\<#5904\>\<#7406\>\<#6570\>\<#636E\>\<#5F80\>\<#5F80\>\<#662F\>\<#4E07\>\<#4E8B\>\<#4E4B\>\<#5F00\>\<#5934\>\<#3002\>\<#5B83\>\<#5305\>\<#542B\>\<#4E24\>\<#4E2A\>\<#90E8\>\<#5206\>\<#FF1A\>\<#6570\>\<#636E\>\<#8BFB\>\<#53D6\>\<#548C\>\<#5F53\>\<#6570\>\<#636E\>\<#5DF2\>\<#7ECF\>\<#5728\>\<#5185\>\<#5B58\>\<#91CC\>\<#65F6\>\<#5982\>\<#4F55\>\<#5904\>\<#7406\>\<#3002\>\<#672C\>\<#7AE0\>\<#5C06\>\<#5173\>\<#6CE8\>\<#540E\>\<#8005\>\<#3002\>\<#6211\>\<#4EEC\>\<#9996\>\<#5148\>\<#4ECB\>\<#7ECD\><code*|NDArray>\<#FF0C\>\<#8FD9\>\<#662F\>MXNet\<#50A8\>\<#5B58\>\<#548C\>\<#53D8\>\<#6362\>\<#6570\>\<#636E\>\<#7684\>\<#4E3B\>\<#8981\>\<#5DE5\>\<#5177\>\<#3002\>\<#5982\>\<#679C\>\<#4F60\>\<#4E4B\>\<#524D\>\<#7528\>\<#8FC7\><code*|NumPy>\<#FF0C\>\<#4F60\>\<#4F1A\>\<#53D1\>\<#73B0\><code*|NDArray>\<#548C\><code*|NumPy>\<#7684\>\<#591A\>\<#7EF4\>\<#6570\>\<#7EC4\>\<#975E\>\<#5E38\>\<#7C7B\>\<#4F3C\>\<#3002\>\<#5F53\>\<#7136\>\<#FF0C\><code*|NDArray>\<#63D0\>\<#4F9B\>\<#66F4\>\<#591A\>\<#7684\>\<#529F\>\<#80FD\>\<#FF0C\>\<#9996\>\<#5148\>\<#662F\>CPU\<#548C\>GPU\<#7684\>\<#5F02\>\<#6B65\>\<#8BA1\>\<#7B97\>\<#FF0C\>\<#5176\>\<#6B21\>\<#662F\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>\<#3002\>\<#8FD9\>\<#4E24\>\<#70B9\>\<#4F7F\>\<#5F97\><code*|NDArray>\<#80FD\>\<#66F4\>\<#597D\>\<#5730\>\<#652F\>\<#6301\>\<#673A\>\<#5668\>\<#5B66\>\<#4E60\>\<#3002\>
-
-  <subsection|\<#8BA9\>\<#6211\>\<#4EEC\>\<#5F00\>\<#59CB\>>
-
-  \<#6211\>\<#4EEC\>\<#5148\>\<#4ECB\>\<#7ECD\>\<#6700\>\<#57FA\>\<#672C\>\<#7684\>\<#529F\>\<#80FD\>\<#3002\>\<#5982\>\<#679C\>\<#4F60\>\<#4E0D\>\<#61C2\>\<#6211\>\<#4EEC\>\<#7528\>\<#5230\>\<#7684\>\<#6570\>\<#5B66\>\<#64CD\>\<#4F5C\>\<#4E5F\>\<#4E0D\>\<#7528\>\<#62C5\>\<#5FC3\>\<#FF0C\>\<#4F8B\>\<#5982\>\<#6309\>\<#5143\>\<#7D20\>\<#52A0\>\<#6CD5\>\<#FF0C\>\<#6216\>\<#8005\>\<#6B63\>\<#6001\>\<#5206\>\<#5E03\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#4F1A\>\<#5728\>\<#4E4B\>\<#540E\>\<#7684\>\<#7AE0\>\<#8282\>\<#5206\>\<#522B\>\<#8BE6\>\<#7EC6\>\<#4ECB\>\<#7ECD\>\<#3002\>
-
-  \<#6211\>\<#4EEC\>\<#9996\>\<#5148\>\<#4ECE\><code*|mxnet>\<#5BFC\>\<#5165\><code*|ndarray>\<#8FD9\>\<#4E2A\>\<#5305\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      from mxnet import ndarray as nd
-    </input>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#7136\>\<#540E\>\<#6211\>\<#4EEC\>\<#521B\>\<#5EFA\>\<#4E00\>\<#4E2A\>\<#6709\>3\<#884C\>\<#548C\>4\<#5217\>\<#7684\>2D\<#6570\>\<#7EC4\>\<#FF08\>\<#901A\>\<#5E38\>\<#4E5F\>\<#53EB\>\<#77E9\>\<#9635\>\<#FF09\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#628A\>\<#6BCF\>\<#4E2A\>\<#5143\>\<#7D20\>\<#521D\>\<#59CB\>\<#5316\>\<#6210\>0
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      nd.zeros((3, 4))
-    <|unfolded-io>
-      [[ 0. \ 0. \ 0. \ 0.]
-
-      \ [ 0. \ 0. \ 0. \ 0.]
-
-      \ [ 0. \ 0. \ 0. \ 0.]]
-
-      \<less\>NDArray 3x4 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#7C7B\>\<#4F3C\>\<#7684\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#521B\>\<#5EFA\>\<#6570\>\<#7EC4\>\<#6BCF\>\<#4E2A\>\<#5143\>\<#7D20\>\<#88AB\>\<#521D\>\<#59CB\>\<#5316\>\<#6210\>1\<#3002\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      x = nd.ones((3, 4))
-    </input>
-
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      x
-    <|unfolded-io>
-      [[ 1. \ 1. \ 1. \ 1.]
-
-      \ [ 1. \ 1. \ 1. \ 1.]
-
-      \ [ 1. \ 1. \ 1. \ 1.]]
-
-      \<less\>NDArray 3x4 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#6216\>\<#8005\>\<#4ECE\>python\<#7684\>\<#6570\>\<#7EC4\>\<#76F4\>\<#63A5\>\<#6784\>\<#9020\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      nd.array([[1, 2], [2, 3]])
-    <|unfolded-io>
-      [[ 1. \ 2.]
-
-      \ [ 2. \ 3.]]
-
-      \<less\>NDArray 2x2 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#6211\>\<#4EEC\>\<#7ECF\>\<#5E38\>\<#9700\>\<#8981\>\<#521B\>\<#5EFA\>\<#968F\>\<#673A\>\<#6570\>\<#7EC4\>\<#FF0C\>\<#5C31\>\<#662F\>\<#8BF4\>\<#6BCF\>\<#4E2A\>\<#5143\>\<#7D20\>\<#7684\>\<#503C\>\<#90FD\>\<#662F\>\<#968F\>\<#673A\>\<#91C7\>\<#6837\>\<#800C\>\<#6765\>\<#FF0C\>\<#8FD9\>\<#4E2A\>\<#7ECF\>\<#5E38\>\<#88AB\>\<#7528\>\<#6765\>\<#521D\>\<#59CB\>\<#5316\>\<#6A21\>\<#578B\>\<#53C2\>\<#6570\>\<#3002\>\<#4E0B\>\<#9762\>\<#521B\>\<#5EFA\>\<#6570\>\<#7EC4\>\<#FF0C\>\<#5B83\>\<#7684\>\<#5143\>\<#7D20\>\<#670D\>\<#4ECE\>\<#5747\>\<#503C\>0\<#65B9\>\<#5DEE\>1\<#7684\>\<#6B63\>\<#6001\>\<#5206\>\<#5E03\>\<#3002\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      y = nd.random_normal(0, 1, shape=(3, 4))
-    </input>
-
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      y
-    <|unfolded-io>
-      [[-0.54594457 -1.771029 \ \ -2.35562968 -0.45138445]
-
-      \ [ 0.54144019 \ 0.57938355 \ 2.67850661 -1.85608196]
-
-      \ [ 1.25463438 -1.9768796 \ -0.54877394 -0.20801921]]
-
-      \<less\>NDArray 3x4 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#8DDF\><code*|NumPy>\<#4E00\>\<#6837\>\<#FF0C\>\<#6BCF\>\<#4E2A\>\<#6570\>\<#7EC4\>\<#7684\>\<#5F62\>\<#72B6\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\><code*|.shape>\<#6765\>\<#83B7\>\<#53D6\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      y.shape
-    <|unfolded-io>
-      (3, 4)
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#5B83\>\<#7684\>\<#5927\>\<#5C0F\>\<#FF0C\>\<#5C31\>\<#662F\>\<#603B\>\<#5143\>\<#7D20\>\<#4E2A\>\<#6570\>\<#FF0C\>\<#662F\>\<#5F62\>\<#72B6\>\<#7684\>\<#7D2F\>\<#4E58\>\<#3002\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      y.size
-    <|unfolded-io>
-      12
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  <subsection|\<#64CD\>\<#4F5C\>\<#7B26\>>
-
-  NDArray\<#652F\>\<#6301\>\<#5927\>\<#91CF\>\<#7684\>\<#6570\>\<#5B66\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF0C\>\<#4F8B\>\<#5982\>\<#6309\>\<#5143\>\<#7D20\>\<#52A0\>\<#6CD5\>\<#FF1A\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      x + y
-    <|unfolded-io>
-      [[ 0.45405543 -0.771029 \ \ -1.35562968 \ 0.54861557]
-
-      \ [ 1.54144025 \ 1.57938361 \ 3.67850661 -0.85608196]
-
-      \ [ 2.25463438 -0.9768796 \ \ 0.45122606 \ 0.7919808 ]]
-
-      \<less\>NDArray 3x4 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#4E58\>\<#6CD5\>\<#FF1A\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      x * y
-    <|unfolded-io>
-      [[-0.54594457 -1.771029 \ \ -2.35562968 -0.45138445]
-
-      \ [ 0.54144019 \ 0.57938355 \ 2.67850661 -1.85608196]
-
-      \ [ 1.25463438 -1.9768796 \ -0.54877394 -0.20801921]]
-
-      \<less\>NDArray 3x4 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#6307\>\<#6570\>\<#8FD0\>\<#7B97\>\<#FF1A\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      nd.exp(y)
-    <|unfolded-io>
-      [[ \ 0.57929432 \ \ 0.17015781 \ \ 0.09483377 \ \ 0.63674599]
-
-      \ [ \ 1.71847999 \ \ 1.78493774 \ 14.56332874 \ \ 0.15628375]
-
-      \ [ \ 3.50655603 \ \ 0.13850074 \ \ 0.57765764 \ \ 0.81219143]]
-
-      \<less\>NDArray 3x4 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#4E5F\>\<#53EF\>\<#4EE5\>\<#8F6C\>\<#7F6E\>\<#4E00\>\<#4E2A\>\<#77E9\>\<#9635\>\<#7136\>\<#540E\>\<#8BA1\>\<#7B97\>\<#77E9\>\<#9635\>\<#4E58\>\<#6CD5\>:
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      nd.dot(x, y.T)
-    <|unfolded-io>
-      [[-5.12398815 \ 1.94324839 -1.47903836]
-
-      \ [-5.12398815 \ 1.94324839 -1.47903836]
-
-      \ [-5.12398815 \ 1.94324827 -1.47903848]]
-
-      \<less\>NDArray 3x3 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  <subsection|\<#5E7F\>\<#64AD\>>
-
-  \<#5F53\>\<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#5DE6\>\<#53F3\>\<#4E24\>\<#8FB9\>ndarray\<#5F62\>\<#72B6\>\<#4E0D\>\<#4E00\>\<#6837\>\<#65F6\>\<#FF0C\>\<#7CFB\>\<#7EDF\>\<#4F1A\>\<#5C1D\>\<#8BD5\>\<#5C06\>\<#5176\>\<#590D\>\<#5236\>\<#5230\>\<#4E00\>\<#4E2A\>\<#5171\>\<#540C\>\<#7684\>\<#5F62\>\<#72B6\>\<#3002\>\<#4F8B\>\<#5982\><code*|a>\<#7684\>\<#7B2C\>0\<#7EF4\>\<#662F\>3,
-  <code*|b>\<#7684\>\<#7B2C\>0\<#7EF4\>\<#662F\>1\<#FF0C\>\<#90A3\>\<#4E48\><code*|a+b>\<#65F6\>\<#4F1A\>\<#5C06\><code*|b>\<#6CBF\>\<#7740\>\<#7B2C\>0\<#7EF4\>\<#590D\>\<#5236\>3\<#904D\>\<#FF1A\>
-
-  <code|In [12]:>
-
-  <\code>
-    a = nd.arange(3).reshape((3,1))
-
-    \;
-
-    \;
-
-    b = nd.arange(2).reshape((1,2))
-
-    \;
-
-    \;
-
-    print('a:', a)
-
-    \;
-
-    \;
-
-    print('b:', b)
-
-    \;
-
-    \;
-
-    print('a+b:', a+b)
-
-    \;
-
-    \;
-  </code>
-
-  \;
-
-  <\code>
-    a:
-
-    [[ 0.]
-
-    \ [ 1.]
-
-    \ [ 2.]]
-
-    \<less\>NDArray 3x1 @cpu(0)\<gtr\>
-
-    b:
-
-    [[ 0. \ 1.]]
-
-    \<less\>NDArray 1x2 @cpu(0)\<gtr\>
-
-    a+b:
-
-    [[ 0. \ 1.]
-
-    \ [ 1. \ 2.]
-
-    \ [ 2. \ 3.]]
-
-    \<less\>NDArray 3x2 @cpu(0)\<gtr\>
-  </code>
-
-  <subsection|\<#8DDF\>NumPy\<#7684\>\<#8F6C\>\<#6362\>>
-
-  ndarray\<#53EF\>\<#4EE5\>\<#5F88\>\<#65B9\>\<#4FBF\>\<#540C\>numpy\<#8FDB\>\<#884C\>\<#8F6C\>\<#6362\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      import numpy as np
-
-      x = np.ones((2,3))
-
-      y = nd.array(x) \ # numpy -\<gtr\> mxnet
-
-      z = y.asnumpy() \ # mxnet -\<gtr\> numpy
-
-      print([z, y])
-    <|unfolded-io>
-      [array([[ 1., \ 1., \ 1.],
-
-      \ \ \ \ \ \ \ [ 1., \ 1., \ 1.]], dtype=float32),\ 
-
-      [[ 1. \ 1. \ 1.]
-
-      \ [ 1. \ 1. \ 1.]]
-
-      \<less\>NDArray 2x3 @cpu(0)\<gtr\>]
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  <subsection|\<#66FF\>\<#6362\>\<#64CD\>\<#4F5C\>>
-
-  \<#5728\>\<#524D\>\<#9762\>\<#7684\>\<#6837\>\<#4F8B\>\<#4E2D\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#4E3A\>\<#6BCF\>\<#4E2A\>\<#64CD\>\<#4F5C\>\<#65B0\>\<#5F00\>\<#5185\>\<#5B58\>\<#6765\>\<#5B58\>\<#50A8\>\<#5B83\>\<#7684\>\<#7ED3\>\<#679C\>\<#3002\>\<#4F8B\>\<#5982\>\<#FF0C\>\<#5982\>\<#679C\>\<#6211\>\<#4EEC\>\<#5199\><math|y=x+y>,
-  \<#6211\>\<#4EEC\>\<#4F1A\>\<#628A\><code*|y>\<#4ECE\>\<#73B0\>\<#5728\>\<#6307\>\<#5411\>\<#7684\>\<#5B9E\>\<#4F8B\>\<#8F6C\>\<#5230\>\<#65B0\>\<#5EFA\>\<#7684\>\<#5B9E\>\<#4F8B\>\<#4E0A\>\<#53BB\>\<#3002\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#7528\>Python\<#7684\><code*|id()>\<#51FD\>\<#6570\>\<#6765\>\<#770B\>\<#8FD9\>\<#4E2A\>\<#662F\>\<#600E\>\<#4E48\>\<#6267\>\<#884C\>\<#7684\>\<#FF1A\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      x = nd.ones((3, 4))
-
-      y = nd.ones((3, 4))
-
-      before = id(y)
-
-      y = y + x
-    </input>
-
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      id(y) == before
-    <|unfolded-io>
-      False
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  <code|False>
-
-  \<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#628A\>\<#7ED3\>\<#679C\>\<#901A\>\<#8FC7\><code*|[:]>\<#5199\>\<#5230\>\<#4E00\>\<#4E2A\>\<#4E4B\>\<#524D\>\<#5F00\>\<#597D\>\<#7684\>\<#6570\>\<#7EC4\>\<#91CC\>\<#FF1A\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      z = nd.zeros_like(x)
-
-      before = id(z)
-
-      z[:] = x + y
-    </input>
-
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      id(z) == before
-    <|unfolded-io>
-      True
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#4F46\>\<#662F\>\<#8FD9\>\<#91CC\>\<#6211\>\<#4EEC\>\<#8FD8\>\<#662F\>\<#4E3A\><code*|x+y>\<#521B\>\<#5EFA\>\<#4E86\>\<#4E34\>\<#65F6\>\<#7A7A\>\<#95F4\>\<#FF0C\>\<#7136\>\<#540E\>\<#518D\>\<#590D\>\<#5236\>\<#5230\><code*|z>\<#3002\>\<#9700\>\<#8981\>\<#907F\>\<#514D\>\<#8FD9\>\<#4E2A\>\<#5F00\>\<#9500\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#4F7F\>\<#7528\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#7684\>\<#5168\>\<#540D\>\<#7248\>\<#672C\>\<#4E2D\>\<#7684\><code*|out>\<#53C2\>\<#6570\>\<#FF1A\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      nd.elemwise_add(x, y, out=z)
-    <|unfolded-io>
-      [[ 3. \ 3. \ 3. \ 3.]
-
-      \ [ 3. \ 3. \ 3. \ 3.]
-
-      \ [ 3. \ 3. \ 3. \ 3.]]
-
-      \<less\>NDArray 3x4 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      id(z) == before
-    <|unfolded-io>
-      True
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#5982\>\<#679C\>\<#53EF\>\<#4EE5\>\<#73B0\>\<#6709\>\<#7684\>\<#6570\>\<#7EC4\>\<#4E4B\>\<#540E\>\<#4E0D\>\<#4F1A\>\<#518D\>\<#7528\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#4E5F\>\<#53EF\>\<#4EE5\>\<#7528\>\<#590D\>\<#5236\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#8FBE\>\<#5230\>\<#8FD9\>\<#4E2A\>\<#76EE\>\<#7684\>\<#FF1A\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      before = id(x)
-
-      x += y
-    </input>
-
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      id(x) == before
-    <|unfolded-io>
-      True
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  <subsection|\<#603B\>\<#7ED3\>>
-
-  ndarray\<#6A21\>\<#5757\>\<#63D0\>\<#4F9B\>\<#4E00\>\<#7CFB\>\<#5217\>\<#591A\>\<#7EF4\>\<#6570\>\<#7EC4\>\<#64CD\>\<#4F5C\>\<#51FD\>\<#6570\>\<#3002\>\<#6240\>\<#6709\>\<#51FD\>\<#6570\>\<#5217\>\<#8868\>\<#53EF\>\<#4EE5\>\<#53C2\>\<#89C1\><hlink|NDArray
-  API\<#6587\>\<#6863\>|https://mxnet.incubator.apache.org/api/python/ndarray.html>\<#3002\>
-
-  <section|\<#4F7F\>\<#7528\>autograd\<#6765\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>>
-
-  \<#5728\>\<#673A\>\<#5668\>\<#5B66\>\<#4E60\>\<#4E2D\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#901A\>\<#5E38\>\<#4F7F\>\<#7528\><strong|\<#68AF\>\<#5EA6\>\<#4E0B\>\<#964D\>>\<#6765\>\<#66F4\>\<#65B0\>\<#6A21\>\<#578B\>\<#53C2\>\<#6570\>\<#4ECE\>\<#800C\>\<#6C42\>\<#89E3\>\<#3002\>\<#635F\>\<#5931\>\<#51FD\>\<#6570\>\<#5173\>\<#4E8E\>\<#6A21\>\<#578B\>\<#53C2\>\<#6570\>\<#7684\>\<#68AF\>\<#5EA6\>\<#6307\>\<#5411\>\<#4E00\>\<#4E2A\>\<#53EF\>\<#4EE5\>\<#964D\>\<#4F4E\>\<#635F\>\<#5931\>\<#51FD\>\<#6570\>\<#503C\>\<#7684\>\<#65B9\>\<#5411\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#4E0D\>\<#65AD\>\<#5730\>\<#6CBF\>\<#7740\>\<#68AF\>\<#5EA6\>\<#7684\>\<#65B9\>\<#5411\>\<#66F4\>\<#65B0\>\<#6A21\>\<#578B\>\<#4ECE\>\<#800C\>\<#6700\>\<#5C0F\>\<#5316\>\<#635F\>\<#5931\>\<#51FD\>\<#6570\>\<#3002\>\<#867D\>\<#7136\>\<#68AF\>\<#5EA6\>\<#8BA1\>\<#7B97\>\<#6BD4\>\<#8F83\>\<#76F4\>\<#89C2\>\<#FF0C\>\<#4F46\>\<#5BF9\>\<#4E8E\>\<#590D\>\<#6742\>\<#7684\>\<#6A21\>\<#578B\>\<#FF0C\>\<#4F8B\>\<#5982\>\<#591A\>\<#8FBE\>\<#6570\>\<#5341\>\<#5C42\>\<#7684\>\<#795E\>\<#7ECF\>\<#7F51\>\<#7EDC\>\<#FF0C\>\<#624B\>\<#52A8\>\<#8BA1\>\<#7B97\>\<#68AF\>\<#5EA6\>\<#975E\>\<#5E38\>\<#56F0\>\<#96BE\>\<#3002\>
-
-  \<#4E3A\>\<#6B64\>MXNet\<#63D0\>\<#4F9B\>autograd\<#5305\>\<#6765\>\<#81EA\>\<#52A8\>\<#5316\>\<#6C42\>\<#5BFC\>\<#8FC7\>\<#7A0B\>\<#3002\>\<#867D\>\<#7136\>\<#5927\>\<#90E8\>\<#5206\>\<#7684\>\<#6DF1\>\<#5EA6\>\<#5B66\>\<#4E60\>\<#6846\>\<#67B6\>\<#8981\>\<#6C42\>\<#7F16\>\<#8BD1\>\<#8BA1\>\<#7B97\>\<#56FE\>\<#6765\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>\<#FF0C\><code*|mxnet.autograd>\<#53EF\>\<#4EE5\>\<#5BF9\>\<#6B63\>\<#5E38\>\<#7684\>\<#547D\>\<#4EE4\>\<#5F0F\>\<#7A0B\>\<#5E8F\>\<#8FDB\>\<#884C\>\<#6C42\>\<#5BFC\>\<#FF0C\>\<#5B83\>\<#6BCF\>\<#6B21\>\<#5728\>\<#540E\>\<#7AEF\>\<#5B9E\>\<#65F6\>\<#521B\>\<#5EFA\>\<#8BA1\>\<#7B97\>\<#56FE\>\<#4ECE\>\<#800C\>\<#53EF\>\<#4EE5\>\<#7ACB\>\<#5373\>\<#5F97\>\<#5230\>\<#68AF\>\<#5EA6\>\<#7684\>\<#8BA1\>\<#7B97\>\<#65B9\>\<#6CD5\>\<#3002\>
-
-  \<#4E0B\>\<#9762\>\<#8BA9\>\<#6211\>\<#4EEC\>\<#4E00\>\<#6B65\>\<#6B65\>\<#4ECB\>\<#7ECD\>\<#8FD9\>\<#4E2A\>\<#5305\>\<#3002\>\<#6211\>\<#4EEC\>\<#5148\>\<#5BFC\>\<#5165\><code*|autograd>\<#3002\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      import mxnet.ndarray as nd
-
-      import mxnet.autograd as ag
-    </input>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  <\code>
-    \;
-  </code>
-
-  <subsection|\<#4E3A\>\<#53D8\>\<#91CF\>\<#9644\>\<#4E0A\>\<#68AF\>\<#5EA6\>>
-
-  \<#5047\>\<#8BBE\>\<#6211\>\<#4EEC\>\<#60F3\>\<#5BF9\>\<#51FD\>\<#6570\><math|f=2x<rsup|2>>\<#6C42\>\<#5173\>\<#4E8E\><code*|x>\<#7684\>\<#5BFC\>\<#6570\>\<#3002\>\<#6211\>\<#4EEC\>\<#5148\>\<#521B\>\<#5EFA\>\<#53D8\>\<#91CF\><code*|x>\<#FF0C\>\<#5E76\>\<#8D4B\>\<#521D\>\<#503C\>\<#3002\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      x = nd.array([[1, 2], [3, 4]])
-    </input>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#5F53\>\<#8FDB\>\<#884C\>\<#6C42\>\<#5BFC\>\<#7684\>\<#65F6\>\<#5019\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#9700\>\<#8981\>\<#4E00\>\<#4E2A\>\<#5730\>\<#65B9\>\<#6765\>\<#5B58\><code*|x>\<#7684\>\<#5BFC\>\<#6570\>\<#FF0C\>\<#8FD9\>\<#4E2A\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\>NDArray\<#7684\>\<#65B9\>\<#6CD5\><code*|attach_grad()>\<#6765\>\<#8981\>\<#6C42\>\<#7CFB\>\<#7EDF\>\<#7533\>\<#8BF7\>\<#5BF9\>\<#5E94\>\<#7684\>\<#7A7A\>\<#95F4\>\<#3002\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      x.attach_grad()
-    </input>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#4E0B\>\<#9762\>\<#5B9A\>\<#4E49\><code*|f>\<#3002\>\<#9ED8\>\<#8BA4\>\<#6761\>\<#4EF6\>\<#4E0B\>\<#FF0C\>MXNet\<#4E0D\>\<#4F1A\>\<#81EA\>\<#52A8\>\<#8BB0\>\<#5F55\>\<#548C\>\<#6784\>\<#5EFA\>\<#7528\>\<#4E8E\>\<#6C42\>\<#5BFC\>\<#7684\>\<#8BA1\>\<#7B97\>\<#56FE\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#9700\>\<#8981\>\<#4F7F\>\<#7528\>autograd\<#91CC\>\<#7684\><code*|record()>\<#51FD\>\<#6570\>\<#6765\>\<#663E\>\<#5F0F\>\<#7684\>\<#8981\>\<#6C42\>MXNet\<#8BB0\>\<#5F55\>\<#6211\>\<#4EEC\>\<#9700\>\<#8981\>\<#6C42\>\<#5BFC\>\<#7684\>\<#7A0B\>\<#5E8F\>\<#3002\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      with ag.record():
-
-      \ \ y = x * 2
-
-      \ \ z = y * x
-    </input>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#63A5\>\<#4E0B\>\<#6765\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\><code*|z.backward()>\<#6765\>\<#8FDB\>\<#884C\>\<#6C42\>\<#5BFC\>\<#3002\>\<#5982\>\<#679C\><code*|z>\<#4E0D\>\<#662F\>\<#4E00\>\<#4E2A\>\<#6807\>\<#91CF\>\<#FF0C\>\<#90A3\>\<#4E48\><code*|z.backward()>\<#7B49\>\<#4EF7\>\<#4E8E\><code*|nd.sum(z).backward()>\<#3002\>
-
-  <\session|python|default>
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      z.backward()
-    </input>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  \<#73B0\>\<#5728\>\<#6211\>\<#4EEC\>\<#6765\>\<#770B\>\<#6C42\>\<#51FA\>\<#6765\>\<#7684\>\<#5BFC\>\<#6570\>\<#662F\>\<#4E0D\>\<#662F\>\<#6B63\>\<#786E\>\<#7684\>\<#3002\>\<#6CE8\>\<#610F\>\<#5230\><math|y=2x>\<#548C\><math|z=x*y>\<#FF0C\>\<#6240\>\<#4EE5\><math|z>\<#7B49\>\<#4EF7\>\<#4E8E\><math|2x<rsup|2>>\<#3002\>\<#5B83\>\<#7684\>\<#5BFC\>\<#6570\>\<#90A3\>\<#4E48\>\<#5C31\>\<#662F\><math|<frac|dz|dx>=4x>\<#3002\>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      x.grad == 4*x
-    <|unfolded-io>
-      [[ 1. \ 1.]
-
-      \ [ 1. \ 1.]]
-
-      \<less\>NDArray 2x2 @cpu(0)\<gtr\>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  <subsection|\<#5BF9\>\<#63A7\>\<#5236\>\<#6D41\>\<#6C42\>\<#5BFC\>>
-
-  \<#547D\>\<#4EE4\>\<#5F0F\>\<#7684\>\<#7F16\>\<#7A0B\>\<#7684\>\<#4E00\>\<#4E2A\>\<#4FBF\>\<#5229\>\<#4E4B\>\<#5904\>\<#662F\>\<#51E0\>\<#4E4E\>\<#53EF\>\<#4EE5\>\<#5BF9\>\<#4EFB\>\<#610F\>\<#7684\>\<#53EF\>\<#5BFC\>\<#7A0B\>\<#5E8F\>\<#8FDB\>\<#884C\>\<#6C42\>\<#5BFC\>\<#FF0C\>\<#5373\>\<#4F7F\>\<#91CC\>\<#9762\>\<#5305\>\<#542B\>\<#4E86\>Python\<#7684\>\<#63A7\>\<#5236\>\<#6D41\>\<#3002\>\<#8003\>\<#8651\>\<#4E0B\>\<#9762\>\<#7A0B\>\<#5E8F\>\<#FF0C\>\<#91CC\>\<#9762\>\<#5305\>\<#542B\>\<#63A7\>\<#5236\>\<#6D41\><code*|for>\<#548C\><code*|if>\<#FF0C\>\<#4F46\>\<#5FAA\>\<#73AF\>\<#8FED\>\<#4EE3\>\<#7684\>\<#6B21\>\<#6570\>\<#548C\>\<#5224\>\<#65AD\>\<#8BED\>\<#53E5\>\<#7684\>\<#6267\>\<#884C\>\<#90FD\>\<#662F\>\<#53D6\>\<#51B3\>\<#4E8E\>\<#8F93\>\<#5165\>\<#7684\>\<#503C\>\<#3002\>\<#4E0D\>\<#540C\>\<#7684\>\<#8F93\>\<#5165\>\<#4F1A\>\<#5BFC\>\<#81F4\>\<#8FD9\>\<#4E2A\>\<#7A0B\>\<#5E8F\>\<#7684\>\<#6267\>\<#884C\>\<#4E0D\>\<#4E00\>\<#6837\>\<#3002\>\<#FF08\>\<#5BF9\>\<#4E8E\>\<#8BA1\>\<#7B97\>\<#56FE\>\<#6846\>\<#67B6\>\<#6765\>\<#8BF4\>\<#FF0C\>\<#8FD9\>\<#4E2A\>\<#5BF9\>\<#5E94\>\<#4E8E\>\<#52A8\>\<#6001\>\<#56FE\>\<#FF0C\>\<#5C31\>\<#662F\>\<#56FE\>\<#7684\>\<#7ED3\>\<#6784\>\<#4F1A\>\<#6839\>\<#636E\>\<#8F93\>\<#5165\>\<#6570\>\<#636E\>\<#4E0D\>\<#540C\>\<#800C\>\<#6539\>\<#53D8\>\<#FF09\>\<#3002\>
-
-  <code|In [7]:>
-
-  <\code>
-    def f(a):
-
-    \;
-
-    \ \ \ \ 
-
-    b = a * 2
-
-    \;
-
-    \ \ \ \ 
-
-    while nd.norm(b).asscalar() \<less\> 1000:
-
-    \;
-
-    \ \ \ \ \ \ \ \ 
-
-    b = b * 2
-
-    \;
-
-    \ \ \ \ 
-
-    if nd.sum(b).asscalar() \<gtr\> 0:
-
-    \;
-
-    \ \ \ \ \ \ \ \ 
-
-    c = b
-
-    \;
-
-    \ \ \ \ 
-
-    else:
-
-    \;
-
-    \ \ \ \ \ \ \ \ 
-
-    c = 100 * b
-
-    \;
-
-    \ \ \ \ 
-
-    return c
-  </code>
-
-  \<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#8DDF\>\<#4E4B\>\<#524D\>\<#4E00\>\<#6837\>\<#4F7F\>\<#7528\><code*|record>\<#8BB0\>\<#5F55\>\<#548C\><code*|backward>\<#6C42\>\<#5BFC\>\<#3002\>
-
-  <code|In [8]:>
-
-  <\code>
-    a = nd.random_normal(shape=3)
-
-    \;
-
-    \;
-
-    a.attach_grad()
-
-    \;
-
-    \;
-
-    with ag.record():
-
-    \;
-
-    \ \ \ \ 
-
-    c = f(a)
-
-    \;
-
-    \;
-
-    c.backward()
-  </code>
-
-  \<#6CE8\>\<#610F\>\<#5230\>\<#7ED9\>\<#5B9A\>\<#8F93\>\<#5165\><code*|a>\<#FF0C\>\<#5176\>\<#8F93\>\<#51FA\><code*|f(a)=xa>\<#FF0C\><code*|x>\<#7684\>\<#503C\>\<#53D6\>\<#51B3\>\<#4E8E\>\<#8F93\>\<#5165\><code*|a>\<#3002\>\<#6240\>\<#4EE5\>\<#6709\><code*|df/da<nbsp>=<nbsp>x>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#5F88\>\<#7B80\>\<#5355\>\<#5730\>\<#8BC4\>\<#4F30\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>\<#7684\>\<#5BFC\>\<#6570\>\<#FF1A\>
-
-  <code|In [9]:>
-
-  <code|a.grad == c/a>
-
-  <code|Out[9]:>
-
-  <\code>
-    \;
-
-    [ 1. \ 1. \ 1.]
-
-    \<less\>NDArray 3 @cpu(0)\<gtr\>
-  </code>
-
-  <subsection|\<#5934\>\<#68AF\>\<#5EA6\>\<#548C\>\<#94FE\>\<#5F0F\>\<#6CD5\>\<#5219\>>
-
-  <em|\<#6CE8\>\<#610F\>\<#FF1A\>\<#8BFB\>\<#8005\>\<#53EF\>\<#4EE5\>\<#8DF3\>\<#8FC7\>\<#8FD9\>\<#4E00\>\<#5C0F\>\<#8282\>\<#FF0C\>\<#4E0D\>\<#4F1A\>\<#5F71\>\<#54CD\>\<#9605\>\<#8BFB\>\<#4E4B\>\<#540E\>\<#7684\>\<#7AE0\>\<#8282\>>
-
-  \<#5F53\>\<#6211\>\<#4EEC\>\<#5728\>\<#4E00\>\<#4E2A\><code*|NDArray>\<#4E0A\>\<#8C03\>\<#7528\><code*|backward>\<#65B9\>\<#6CD5\>\<#65F6\>\<#FF0C\>\<#4F8B\>\<#5982\><code*|y.backward()>\<#FF0C\>\<#6B64\>\<#5904\><code*|y>\<#662F\>\<#4E00\>\<#4E2A\>\<#5173\>\<#4E8E\><code*|x>\<#7684\>\<#51FD\>\<#6570\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5C06\>\<#6C42\>\<#5F97\><code*|y>\<#5173\>\<#4E8E\><code*|x>\<#7684\>\<#5BFC\>\<#6570\>\<#3002\>\<#6570\>\<#5B66\>\<#5BB6\>\<#4EEC\>\<#4F1A\>\<#628A\>\<#8FD9\>\<#4E2A\>\<#6C42\>\<#5BFC\>\<#5199\>\<#6210\><code*|dy(x)/dx>\<#3002\>\<#8FD8\>\<#6709\>\<#4E9B\>\<#66F4\>\<#590D\>\<#6742\>\<#7684\>\<#60C5\>\<#51B5\>\<#FF0C\>\<#6BD4\>\<#5982\><code*|z>\<#662F\>\<#5173\>\<#4E8E\><code*|y>\<#7684\>\<#51FD\>\<#6570\>\<#FF0C\>\<#4E14\><code*|y>\<#662F\>\<#5173\>\<#4E8E\><code*|x>\<#7684\>\<#51FD\>\<#6570\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#60F3\>\<#5BF9\><code*|z>\<#5173\>\<#4E8E\><code*|x>\<#6C42\>\<#5BFC\>\<#FF0C\>\<#4E5F\>\<#5C31\>\<#662F\>\<#6C42\><code*|dz(y(x))/dx>\<#7684\>\<#7ED3\>\<#679C\>\<#3002\>\<#56DE\>\<#60F3\>\<#4E00\>\<#4E0B\>\<#94FE\>\<#5F0F\>\<#6CD5\>\<#5219\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#5F97\>\<#5230\><code*|dz(y(x))/dx<nbsp>=<nbsp>[dz(y)/dy]<nbsp>*<nbsp>[dy(x)/dx]>\<#3002\>\<#5F53\><code*|y>\<#662F\>\<#4E00\>\<#4E2A\>\<#66F4\>\<#5927\>\<#7684\><code*|z>\<#51FD\>\<#6570\>\<#7684\>\<#4E00\>\<#90E8\>\<#5206\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#6211\>\<#4EEC\>\<#5E0C\>\<#671B\>\<#6C42\>\<#5F97\><code*|dz/dx>\<#4FDD\>\<#5B58\>\<#5728\><code*|x.grad>\<#4E2D\>\<#65F6\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#4F20\>\<#5165\><em|\<#5934\>\<#68AF\>\<#5EA6\>><code*|dz/dy>\<#7684\>\<#503C\>\<#4F5C\>\<#4E3A\><code*|backward()>\<#65B9\>\<#6CD5\>\<#7684\>\<#8F93\>\<#5165\>\<#53C2\>\<#6570\>\<#FF0C\>\<#7CFB\>\<#7EDF\>\<#4F1A\>\<#81EA\>\<#52A8\>\<#5E94\>\<#7528\>\<#94FE\>\<#5F0F\>\<#6CD5\>\<#5219\>\<#8FDB\>\<#884C\>\<#8BA1\>\<#7B97\>\<#3002\>\<#8FD9\>\<#4E2A\>\<#53C2\>\<#6570\>\<#7684\>\<#9ED8\>\<#8BA4\>\<#503C\>\<#662F\><code*|nd.ones_like(y)>\<#3002\>\<#5173\>\<#4E8E\>\<#94FE\>\<#5F0F\>\<#6CD5\>\<#5219\>\<#7684\>\<#8BE6\>\<#7EC6\>\<#89E3\>\<#91CA\>\<#FF0C\>\<#8BF7\>\<#53C2\>\<#9605\><hlink|Wikipedia|https://en.wikipedia.org/wiki/Chain_rule>\<#3002\>
-
-  <code|In [10]:>
-
-  <\code>
-    with ag.record():
-
-    \;
-
-    \ \ \ \ 
-
-    y = x * 2
-
-    \;
-
-    \ \ \ \ 
-
-    z = y * x
-
-    \;
-
-    \;
-
-    \;
-
-    head_gradient = nd.array([[10, 1.], [.1, .01]])
-
-    \;
-
-    \;
-
-    z.backward(head_gradient)
-
-    \;
-
-    \;
-
-    print(x.grad)
-  </code>
-
-  \;
-
-  <\code>
-    [[ 40. \ \ \ \ \ \ \ \ \ \ 8. \ \ \ \ \ \ \ ]
-
-    \ [ \ 1.20000005 \ \ 0.16 \ \ \ \ \ ]]
-
-    \<less\>NDArray 2x2 @cpu(0)\<gtr\>
-  </code>
 </body>
 
 <initial|<\collection>
@@ -1091,35 +314,20 @@
 
 <\references>
   <\collection>
-    <associate|一个例子|<tuple|1.1|?>>
-    <associate|分类|<tuple|3.2|?>>
-    <associate|回归分析|<tuple|3.1|?>>
     <associate|小结|<tuple|4.1|?>>
-    <associate|序列学习|<tuple|3.6|?>>
     <associate|推荐系统|<tuple|3.5|?>>
-    <associate|搜索与排序|<tuple|3.4|?>>
-    <associate|文本转语音|<tuple|3.6.3|?>>
-    <associate|机器学习最简要素|<tuple|2|?>>
-    <associate|机器翻译|<tuple|3.6.4|?>>
-    <associate|标注|<tuple|3.3|?>>
-    <associate|用代码编程和用数据编程|<tuple|1.3|?>>
-    <associate|监督学习|<tuple|3|?>>
-    <associate|眼花缭乱的机器学习应用|<tuple|2|?>>
-    <associate|语法分析|<tuple|3.6.1|?>>
-    <associate|语音识别|<tuple|3.6.2|?>>
-    <associate|非监督学习|<tuple|4|?>>
     <associate|auto-1|<tuple|1|?>>
-    <associate|auto-10|<tuple|3.3|?>>
-    <associate|auto-11|<tuple|3.4|?>>
-    <associate|auto-12|<tuple|3.5|?>>
-    <associate|auto-13|<tuple|3.6|?>>
-    <associate|auto-14|<tuple|3.6.1|?>>
-    <associate|auto-15|<tuple|3.6.2|?>>
-    <associate|auto-16|<tuple|3.6.3|?>>
-    <associate|auto-17|<tuple|3.6.4|?>>
-    <associate|auto-18|<tuple|4|?>>
+    <associate|auto-10|<tuple|3.4|?>>
+    <associate|auto-11|<tuple|3.5|?>>
+    <associate|auto-12|<tuple|3.6|?>>
+    <associate|auto-13|<tuple|3.6.1|?>>
+    <associate|auto-14|<tuple|3.6.2|?>>
+    <associate|auto-15|<tuple|3.6.3|?>>
+    <associate|auto-16|<tuple|3.6.4|?>>
+    <associate|auto-17|<tuple|4|?>>
+    <associate|auto-18|<tuple|4.1|?>>
     <associate|auto-19|<tuple|4.1|?>>
-    <associate|auto-2|<tuple|1|?>>
+    <associate|auto-2|<tuple|1.1|?>>
     <associate|auto-20|<tuple|5|?>>
     <associate|auto-21|<tuple|5.1|?>>
     <associate|auto-22|<tuple|5.2|?>>
@@ -1130,16 +338,14 @@
     <associate|auto-27|<tuple|6|?>>
     <associate|auto-28|<tuple|6.1|?>>
     <associate|auto-29|<tuple|6.2|?>>
-    <associate|auto-3|<tuple|1.1|?>>
+    <associate|auto-3|<tuple|1.2|?>>
     <associate|auto-30|<tuple|6.3|?>>
-    <associate|auto-31|<tuple|8.3|?>>
-    <associate|auto-4|<tuple|1.2|?>>
-    <associate|auto-5|<tuple|1.3|?>>
-    <associate|auto-6|<tuple|2|?>>
-    <associate|auto-7|<tuple|3|?>>
-    <associate|auto-8|<tuple|3.1|?>>
-    <associate|auto-9|<tuple|3.2|?>>
-    <associate|id19|<tuple|3.2|?>>
+    <associate|auto-4|<tuple|1.3|?>>
+    <associate|auto-5|<tuple|2|?>>
+    <associate|auto-6|<tuple|3|?>>
+    <associate|auto-7|<tuple|3.1|?>>
+    <associate|auto-8|<tuple|3.2|?>>
+    <associate|auto-9|<tuple|3.3|?>>
   </collection>
 </references>
 
@@ -1154,49 +360,117 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#4F7F\>\<#7528\>NDArray\<#6765\>\<#5904\>\<#7406\>\<#6570\>\<#636E\>>
+      <with|par-left|<quote|1tab>|1.1<space|2spc>\<#4E00\>\<#4E2A\>\<#4F8B\>\<#5B50\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-3><vspace|0.5fn>
+      <no-break><pageref|auto-3>>
 
-      <with|par-left|<quote|1tab>|2.1<space|2spc>\<#8BA9\>\<#6211\>\<#4EEC\>\<#5F00\>\<#59CB\>
+      <with|par-left|<quote|1tab>|1.2<space|2spc>\<#773C\>\<#82B1\>\<#7F2D\>\<#4E71\>\<#7684\>\<#673A\>\<#5668\>\<#5B66\>\<#4E60\>\<#5E94\>\<#7528\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4>>
 
-      <with|par-left|<quote|1tab>|2.2<space|2spc>\<#64CD\>\<#4F5C\>\<#7B26\>
+      <with|par-left|<quote|1tab>|1.3<space|2spc>\<#7528\>\<#4EE3\>\<#7801\>\<#7F16\>\<#7A0B\>\<#548C\>\<#7528\>\<#6570\>\<#636E\>\<#7F16\>\<#7A0B\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5>>
 
-      <with|par-left|<quote|1tab>|2.3<space|2spc>\<#5E7F\>\<#64AD\>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#673A\>\<#5668\>\<#5B66\>\<#4E60\>\<#6700\>\<#7B80\>\<#8981\>\<#7D20\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-6>>
+      <no-break><pageref|auto-6><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|2.4<space|2spc>\<#8DDF\>NumPy\<#7684\>\<#8F6C\>\<#6362\>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#76D1\>\<#7763\>\<#5B66\>\<#4E79\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-7>>
+      <no-break><pageref|auto-7><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|2.5<space|2spc>\<#66FF\>\<#6362\>\<#64CD\>\<#4F5C\>
+      <with|par-left|<quote|1tab>|3.1<space|2spc>\<#56DE\>\<#5F52\>\<#5206\>\<#6790\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-8>>
 
-      <with|par-left|<quote|1tab>|2.6<space|2spc>\<#603B\>\<#7ED3\>
+      <with|par-left|<quote|1tab>|3.2<space|2spc>\<#5206\>\<#7C7B\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#4F7F\>\<#7528\>autograd\<#6765\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>>
+      <with|par-left|<quote|1tab>|3.3<space|2spc>\<#6807\>\<#6CE8\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-10><vspace|0.5fn>
+      <no-break><pageref|auto-10>>
 
-      <with|par-left|<quote|1tab>|3.1<space|2spc>\<#4E3A\>\<#53D8\>\<#91CF\>\<#9644\>\<#4E0A\>\<#68AF\>\<#5EA6\>
+      <with|par-left|<quote|1tab>|3.4<space|2spc>\<#641C\>\<#7D22\>\<#4E0E\>\<#6392\>\<#5E8F\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-11>>
 
-      <with|par-left|<quote|1tab>|3.2<space|2spc>\<#5BF9\>\<#63A7\>\<#5236\>\<#6D41\>\<#6C42\>\<#5BFC\>
+      <with|par-left|<quote|1tab>|3.5<space|2spc>\<#63A8\>\<#8350\>\<#7CFB\>\<#7EDF\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-12>>
 
-      <with|par-left|<quote|1tab>|3.3<space|2spc>\<#5934\>\<#68AF\>\<#5EA6\>\<#548C\>\<#94FE\>\<#5F0F\>\<#6CD5\>\<#5219\>
+      <with|par-left|<quote|1tab>|3.6<space|2spc>\<#5E8F\>\<#5217\>\<#5B66\>\<#4E60\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-13>>
+
+      <with|par-left|<quote|2tab>|3.6.1<space|2spc>\<#8BED\>\<#6CD5\>\<#5206\>\<#6790\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-14>>
+
+      <with|par-left|<quote|2tab>|3.6.2<space|2spc>\<#8BED\>\<#97F3\>\<#8BC6\>\<#522B\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-15>>
+
+      <with|par-left|<quote|2tab>|3.6.3<space|2spc>\<#6587\>\<#672C\>\<#8F6C\>\<#8BED\>\<#97F3\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-16>>
+
+      <with|par-left|<quote|2tab>|3.6.4<space|2spc>\<#673A\>\<#5668\>\<#7FFB\>\<#8BD1\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-17>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#975E\>\<#76D1\>\<#7763\>\<#5B66\>\<#4E60\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-18><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|4.1<space|2spc>\<#5C0F\>\<#7ED3\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-19>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|2spc>\<#4F7F\>\<#7528\>NDArray\<#6765\>\<#5904\>\<#7406\>\<#6570\>\<#636E\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-20><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|5.1<space|2spc>\<#8BA9\>\<#6211\>\<#4EEC\>\<#5F00\>\<#59CB\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-21>>
+
+      <with|par-left|<quote|1tab>|5.2<space|2spc>\<#64CD\>\<#4F5C\>\<#7B26\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-22>>
+
+      <with|par-left|<quote|1tab>|5.3<space|2spc>\<#5E7F\>\<#64AD\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-23>>
+
+      <with|par-left|<quote|1tab>|5.4<space|2spc>\<#8DDF\>NumPy\<#7684\>\<#8F6C\>\<#6362\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-24>>
+
+      <with|par-left|<quote|1tab>|5.5<space|2spc>\<#66FF\>\<#6362\>\<#64CD\>\<#4F5C\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-25>>
+
+      <with|par-left|<quote|1tab>|5.6<space|2spc>\<#603B\>\<#7ED3\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-26>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|6<space|2spc>\<#4F7F\>\<#7528\>autograd\<#6765\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-27><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|6.1<space|2spc>\<#4E3A\>\<#53D8\>\<#91CF\>\<#9644\>\<#4E0A\>\<#68AF\>\<#5EA6\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-28>>
+
+      <with|par-left|<quote|1tab>|6.2<space|2spc>\<#5BF9\>\<#63A7\>\<#5236\>\<#6D41\>\<#6C42\>\<#5BFC\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-29>>
+
+      <with|par-left|<quote|1tab>|6.3<space|2spc>\<#5934\>\<#68AF\>\<#5EA6\>\<#548C\>\<#94FE\>\<#5F0F\>\<#6CD5\>\<#5219\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-30>>
     </associate>
   </collection>
 </auxiliary>

@@ -3,6 +3,8 @@
 <style|<tuple|generic|chinese|literate>>
 
 <\body>
+  <chapter|\<#524D\>\<#8A00\>>
+
   <section|\<#5B89\>\<#88C5\>>
 
   First, configure your pip.
@@ -88,7 +90,8 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|?>>
-    <associate|auto-2|<tuple|2|?>>
+    <associate|auto-2|<tuple|1|?>>
+    <associate|auto-3|<tuple|2|?>>
     <associate|chunk-$HOME/.pip/pip.conf-1|<tuple|$HOME/.pip/pip.conf|?>>
   </collection>
 </references>
@@ -96,12 +99,12 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Installation>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#5B89\>\<#88C5\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>Validate
-      MXNet Installation> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#68C0\>\<#67E5\>MXNet\<#662F\>\<#5426\>\<#53EF\>\<#7528\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
   </collection>

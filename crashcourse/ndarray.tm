@@ -272,69 +272,53 @@
   \<#5F53\>\<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#5DE6\>\<#53F3\>\<#4E24\>\<#8FB9\>ndarray\<#5F62\>\<#72B6\>\<#4E0D\>\<#4E00\>\<#6837\>\<#65F6\>\<#FF0C\>\<#7CFB\>\<#7EDF\>\<#4F1A\>\<#5C1D\>\<#8BD5\>\<#5C06\>\<#5176\>\<#590D\>\<#5236\>\<#5230\>\<#4E00\>\<#4E2A\>\<#5171\>\<#540C\>\<#7684\>\<#5F62\>\<#72B6\>\<#3002\>\<#4F8B\>\<#5982\><code*|a>\<#7684\>\<#7B2C\>0\<#7EF4\>\<#662F\>3,
   <code*|b>\<#7684\>\<#7B2C\>0\<#7EF4\>\<#662F\>1\<#FF0C\>\<#90A3\>\<#4E48\><code*|a+b>\<#65F6\>\<#4F1A\>\<#5C06\><code*|b>\<#6CBF\>\<#7740\>\<#7B2C\>0\<#7EF4\>\<#590D\>\<#5236\>3\<#904D\>\<#FF1A\>
 
-  <code|In [12]:>
+  <\session|python|default>
+    <\unfolded-io>
+      \<gtr\>\<gtr\>\<gtr\>\ 
+    <|unfolded-io>
+      a = nd.arange(3).reshape((3,1))
 
-  <\code>
-    a = nd.arange(3).reshape((3,1))
+      b = nd.arange(2).reshape((1,2))
 
-    \;
+      print('a:', a)
 
-    \;
+      print('b:', b)
 
-    b = nd.arange(2).reshape((1,2))
+      print('a+b:', a+b)
+    <|unfolded-io>
+      a:\ 
 
-    \;
+      [[ 0.]
 
-    \;
+      \ [ 1.]
 
-    print('a:', a)
+      \ [ 2.]]
 
-    \;
+      \<less\>NDArray 3x1 @cpu(0)\<gtr\>
 
-    \;
+      b:\ 
 
-    print('b:', b)
+      [[ 0. \ 1.]]
 
-    \;
+      \<less\>NDArray 1x2 @cpu(0)\<gtr\>
 
-    \;
+      a+b:\ 
 
-    print('a+b:', a+b)
+      [[ 0. \ 1.]
 
-    \;
+      \ [ 1. \ 2.]
 
-    \;
-  </code>
+      \ [ 2. \ 3.]]
 
-  \;
+      \<less\>NDArray 3x2 @cpu(0)\<gtr\>
+    </unfolded-io>
 
-  <\code>
-    a:
-
-    [[ 0.]
-
-    \ [ 1.]
-
-    \ [ 2.]]
-
-    \<less\>NDArray 3x1 @cpu(0)\<gtr\>
-
-    b:
-
-    [[ 0. \ 1.]]
-
-    \<less\>NDArray 1x2 @cpu(0)\<gtr\>
-
-    a+b:
-
-    [[ 0. \ 1.]
-
-    \ [ 1. \ 2.]
-
-    \ [ 2. \ 3.]]
-
-    \<less\>NDArray 3x2 @cpu(0)\<gtr\>
-  </code>
+    <\input>
+      \<gtr\>\<gtr\>\<gtr\>\ 
+    <|input>
+      \;
+    </input>
+  </session>
 
   <subsection|\<#8DDF\>NumPy\<#7684\>\<#8F6C\>\<#6362\>>
 
